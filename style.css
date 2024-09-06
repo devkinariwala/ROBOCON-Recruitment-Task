@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  top: 0;
+  left: 0;
+  font-family: roboto;
+}
+
+.header-1{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+  background-color: white;
+  height: 70px;
+  z-index: 100;
+}
+
+.logo-1{
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  left: 158px;
+  top: 8px;
+}
+
+.login{
+  padding-right: 158px;
+  top: 5px;
+}
+
+.login-button{
+  position: relative;
+  width: 100px;
+  height: 35px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header-2{
+  background-color: black;
+  padding-top: 70px;
+  height: 70px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+
+}
+
+.logo-2{
+  position: absolute;
+  width: 160px;
+  height: 51px;
+  left: 130px;
+  top: 78px;
+}
+
+.navbar {
+  padding-right: 158px;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+}
+.section-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+}
+
+.text{
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 500px;
+  margin-bottom: 150px;
+}
+
+.section-2{
+  background-color: black;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo{
+  height: 300px;
+}
+
+.card {
+  width: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.card-top {
+  height: 200px;
+  background-color: red;
+}
+
+.card-bottom {
+  padding: 20px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.card-bottom p {
+  margin: 0;
+}
